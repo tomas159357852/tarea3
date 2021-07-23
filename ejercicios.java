@@ -67,8 +67,8 @@ public class ejercicios {
 
     public void transformada18(int dimen, int valInit) {
         String[][] matriz=new String[dimen][dimen];
-        for (int j = 0; j < matriz.length; j++) {
-            for (int i = 0; i <= j; i++) {
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j <= i; j++) {
                 matriz[j][(dimen-1)-i]=""+valInit;    
                 valInit++;
             }
@@ -88,9 +88,9 @@ public class ejercicios {
     }
     public void transformada07(int dimen, int valInit) {
         String[][] matriz=new String[dimen][dimen];
-        for (int j = 0; j < matriz.length; j++) {
-            for (int i = 0; i <= j; i++) {
-                matriz[j-i][i]=""+valInit;
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0 ; j <= i; j++) {
+                matriz[(dimen-1)-i][j]=""+valInit;
                 valInit++;
             }
         }
