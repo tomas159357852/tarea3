@@ -125,8 +125,6 @@ public class ejercicios {
         System.out.println("");
         tObj.transformada06(5, 0);
         System.out.println("");
-        tObj.transformada07(5, 0);
-        System.out.println("");
         tObj.transformada10(5, 0);
         System.out.println("");
         tObj.transformada14(5, 0);
@@ -136,6 +134,8 @@ public class ejercicios {
         tObj.transformada17(5, 0);
         System.out.println("");
         tObj.transformada18(5, 0);
+        System.out.println("");
+        tObj.transformada07(5, 0);
         System.out.println("");
         tObj.transformada26(5, 0);
         System.out.println("");
